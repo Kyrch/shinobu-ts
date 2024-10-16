@@ -1,0 +1,22 @@
+{
+  "name": "shinobu-oshino",
+  "version": "2.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "build": "tsc --project ./tsconfig.json"
+  },
+  "author": "Kyrch",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "graphql-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.19.1"
+  }
+}
