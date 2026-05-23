@@ -1,4 +1,4 @@
-import { ExtendClient } from './structs/ExtendClient';
+import ExtendClient from "discord/ExtendedClient";
 
 export const client = new ExtendClient();
 

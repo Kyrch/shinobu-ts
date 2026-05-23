@@ -1,7 +1,6 @@
+import { client } from 'app';
 import { ActivityType, Events } from 'discord.js';
-import { client } from '../app';
-
-import Event from '../structs/types/Event';
+import Event from 'discord/Event';
 
 const activities = [
     { type: ActivityType.Watching, name: 'Monogatari' },

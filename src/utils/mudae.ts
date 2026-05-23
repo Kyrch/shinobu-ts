@@ -86,14 +86,3 @@ export const mudaewl = (characters: string): string => {
 
     return res;
 }
-
-export const mudaefav = (favourites: any[]): string => {
-    let string = '';
-    favourites.forEach((fav: { name: { first: string, middle: string, last: string }}) => {
-        string += `${fav.name.first || ''} ${fav.name.middle || ''} ${fav.name.last || ''}` + '$';
-    });
-
-    string = string.replace(/( )+/g, ' ').slice(0, -1);
-
-    return string;
-}

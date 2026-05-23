@@ -1,5 +1,5 @@
 import { ApplicationCommandType, ContextMenuCommandBuilder, ContextMenuCommandInteraction } from 'discord.js';
-import { MenuCommand } from '../structs/types/Commands';
+import MenuCommand from 'discord/MenuCommand';
 
 export default new MenuCommand({
     data: new ContextMenuCommandBuilder()
